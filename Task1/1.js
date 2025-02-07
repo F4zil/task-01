@@ -6,3 +6,5 @@ function Characters(Word){
 let string = "Fazil";
 let netice = Characters(string);
 console.log(netice);
+
+

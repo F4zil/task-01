@@ -4,14 +4,18 @@ for(let i = 0; i < 5; i++){
      eded[i] = Number(yaz) 
 }
 
-for ( let i =1; i<eded.length; i++){
-    if (eded[i] < boyuk){
+let boyuk = eded[0]
+let kicik = eded[0]
+console.log(eded);
+
+for ( let i =0; i<eded.length; i++){
+    if (eded[i] > boyuk){
         boyuk = eded[i]
     }
-    if (eded[i]< kicik){
+    if (eded[i] < kicik){
         kicik = eded[i]
     }
 }       
  
 alert("En boyuk eded:" + boyuk)
-alert("en kicik eded" + kicik)
+alert(``)
